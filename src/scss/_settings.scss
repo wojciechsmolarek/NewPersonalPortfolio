@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Metropolis-Bold";
+  src: url("../fonts/Metropolis-Bold.otf");
+}
+@font-face {
+  font-family: "Metropolis-Thin";
+  src: url("../fonts/Metropolis-Thin.otf");
+}
+@font-face {
+  font-family: "Metropolis-Regular";
+  src: url("../fonts/Metropolis-Regular.otf");
+}
+
+.github {
+  color: #333 !important;
+}
+
+.dribble {
+  color: #EA4C89 !important;
+}
+
+.behance {
+  color: #053EFF !important;
+}
+
+.linkedin {
+  color: #0077B5 !important;
+}
+@media screen and (max-width: 655px) {
+  .contact span,
+  .mainContent .social .socialContainer .socialItem a,
+  .paragraph {
+    font-size: 23px !important;
+  }
+
+  .mainContent .header .mainHeader {
+    font-size: 75px !important;
+  }
+}
+@media screen and (max-width: 415px) {
+  .contact span {
+    font-size: 20px !important;
+  }
+
+  .mainContent .header .logoContainer {
+    margin: 170px 0 100px !important;
+  }
+}

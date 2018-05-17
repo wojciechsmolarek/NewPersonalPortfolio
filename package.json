@@ -1,0 +1,29 @@
+{
+  "name": "personalportfolio",
+  "version": "1.0.0",
+  "description": "Wojciech Smolarek - Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "portfolio",
+    "web",
+    "design",
+    "frondend",
+    "developer",
+    "strona",
+    "internetowa"
+  ],
+  "author": "Wojciech Smolarek",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.6.4"
+  },
+  "dependencies": {
+    "D": "^1.0.0",
+    "browser-sync": "^2.24.4",
+    "gulp-sass": "^4.0.1"
+  }
+}
