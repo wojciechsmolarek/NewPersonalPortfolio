@@ -28,8 +28,9 @@
 @media screen and (max-width: 655px) {
   .contact span,
   .mainContent .social .socialContainer .socialItem a,
-  .paragraph {
-    font-size: 23px !important;
+  .paragraph, .mainContent .intro ul li  {
+    font-size: 21px !important;
+    line-height: 50px;
   }
 
   .mainContent .header .mainHeader {

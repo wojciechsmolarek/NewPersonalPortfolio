@@ -45,15 +45,28 @@
     .intro {
       width: 80%;
       font-size: 27px;
+      .paragraphHeading {
+        margin-bottom: .5em;
+      }
 
       .paragraph {
         max-width: 1088px;
         margin-left: 0;
         margin-bottom: 80px;
-
-        span {
-          font-weight: 700;
+      }
+      .list {
+        margin-bottom: 1em;
+      }
+      .introContainer {
+        max-width: 1088px;
+        margin-left: 0;
+        margin-bottom: 80px;
+        .introEl {
+          margin-left: 1em;
         }
+      }
+      span {
+        font-weight: 700;
       }
     }
 
@@ -70,6 +83,7 @@
 
         .socialItem {
           flex: 1;
+          padding: 0 2px;
 
           a {
             text-decoration: none;
