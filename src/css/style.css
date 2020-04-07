@@ -40,14 +40,19 @@
 * {
   margin: 0 auto;
   padding: 0;
-  line-height: 57px;
   box-sizing: border-box;
   font-family: "Metropolis-Regular"; }
+
+#cookie {
+-webkit-box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.54);
+-moz-box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.54);
+box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.54);}
 
 .mainContent {
   position: absolute;
   top: 0;
   width: 100%;
+  line-height: 57px;
   height: auto;
   background-image: url("../img/pattern.png");
   background-repeat: no-repeat;
